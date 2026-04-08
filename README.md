@@ -144,7 +144,11 @@ The admin console integrates with the OpenSandbox Lifecycle API:
 
 ### Screenshots
 
-*Screenshots will be added here*
+![Screenshot 1](./screenshots/1.jpg)
+
+![Screenshot 2](./screenshots/2.jpg)
+
+![Screenshot 3](./screenshots/3.jpg)
 
 ### License
 
@@ -323,7 +327,11 @@ src/
 
 ### 截图
 
-*截图待添加*
+![截图 1](./screenshots/1.jpg)
+
+![截图 2](./screenshots/2.jpg)
+
+![截图 3](./screenshots/3.jpg)
 
 ### 许可证
 
