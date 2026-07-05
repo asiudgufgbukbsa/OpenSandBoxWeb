@@ -4,6 +4,7 @@
       <el-form-item label="状态">
         <el-select
           v-model="filterForm.state"
+          class="state-select"
           placeholder="全部状态"
           clearable
           @change="handleFilter"
@@ -20,6 +21,7 @@
       <el-form-item label="搜索">
         <el-input
           v-model="filterForm.search"
+          class="search-input"
           placeholder="搜索ID或名称"
           clearable
           @keyup.enter="handleFilter"
@@ -99,6 +101,30 @@ const handleReset = () => {
 
   .el-form-item {
     margin-bottom: 0;
+  }
+
+  .state-select {
+    width: 180px;
+  }
+
+  .search-input {
+    width: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sandbox-filters {
+    :deep(.el-form--inline .el-form-item) {
+      display: flex;
+      margin-right: 0;
+      margin-bottom: 12px;
+      width: 100%;
+    }
+
+    .state-select,
+    .search-input {
+      width: 100%;
+    }
   }
 }
 </style>
